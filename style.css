@@ -1,0 +1,104 @@
+
+#profileimg {
+	width:100px;
+	margin: 10px 10px;
+}
+.img-circle {
+	border-radius: 50%;
+}
+body {
+	background: #F6F4F3;
+	font-family: 'Archivo Narrow', helvetica, sans-serif;
+	font-size: 16px;
+	color: #2D3142;
+}
+h1, h2, h3{
+	font-family: Futura, helvetica, sans-serif;
+
+}
+a {
+	text-decoration: none;
+	font-weight: 500;
+	color: rgb(20,20,20);
+	transition: color 0.3s ease;
+}
+a:hover {
+	font-weight: 600;
+	color: #00C16D;
+}
+h1 {
+	font-size: 32px;
+	font-weight: 900;
+	color: #3359E0;
+}
+.card-content h2{
+
+	font-size: 22px;
+	font-weight: 600;
+	color: #01BAEF;
+}
+.card-content h3{
+	font-size: 18px;
+	font-weight: 400;
+	color: #01BAEF;
+}
+p {
+	font-size: 18px;
+	font-weight: 400;
+}
+ .card-white {
+ 	background: white;
+ 	border-radius: 3px;
+ 	padding: 30px;
+ 	box-shadow: 0px 0px 30px rgba(45,49,46,.1);
+ 	margin: 10px 0;
+ 	text-align: center;
+ }
+ .list-horizontal {
+ 	 	list-style: none;
+ 	 	padding-left: 0;
+ }
+ .list-horizontal li{
+ 	display: inline;
+ 	padding: 10px;
+ }
+ .list-horizontal i{
+  	color: #F6F4F3;
+ 	font-size: 25px;
+ }
+ .list-horizontal i:hover{
+ 	color: #00C16D;
+ 	transition: color 0.3s ease;
+ }
+ #frame {
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+
+@media (max-width: 750px) {
+ 	#frame {
+ 		width: 600px;
+ 		margin: 20px auto;
+ 	}
+ }
+@media (max-width: 600px) {
+ 	#frame {
+ 		width: 400px;
+ 		margin: 0px auto;
+ 	}
+ }
+.btn-gray {
+	background-color: #00C16D;
+	border-radius: 3px;
+	padding: 10px;
+	color: white;
+	transition: background-color 0.3s ease;
+
+}
+.btn-gray:hover {
+	background-color: #F6F4F3;
+	color: #00C16D;
+}
+#introduction p{
+	padding: 10px; 
+}
